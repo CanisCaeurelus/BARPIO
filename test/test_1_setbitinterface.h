@@ -24,9 +24,9 @@
 
 void TEST_1_setBitInterface(
     char* module_name,
-    eErr_t (*setBit)(int bit, int* reg),
-    eErr_t (*clearBit)(int bit, int* reg),
-    eErr_t (*invertBit)(int bit, int* reg)
+    eErr_t (*setBit)(int bit, unsigned int* reg),
+    eErr_t (*clearBit)(int bit, unsigned int* reg),
+    eErr_t (*invertBit)(int bit, unsigned int* reg)
     );
 
 #endif

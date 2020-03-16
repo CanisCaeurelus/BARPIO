@@ -13,10 +13,10 @@
 
 /* every public function in your module should start with "MODULENAME_" prefix */
 
-eErr_t PIOCIE_setBit(int bit, int* reg);
+eErr_t PIOCIE_setBit(int bit, unsigned int* reg);
 
-eErr_t PIOCIE_clearBit(int bit, int* reg);
+eErr_t PIOCIE_clearBit(int bit, unsigned int* reg);
 
-eErr_t PIOCIE_invertBit(int bit, int* reg);
+eErr_t PIOCIE_invertBit(int bit, unsigned int* reg);
 
 #endif
